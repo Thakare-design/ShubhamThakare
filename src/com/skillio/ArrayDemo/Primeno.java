@@ -6,9 +6,9 @@ public class Primeno {
 
 		int[] x = { 10, 11, 12, 13, 14, 15, 16};
 
-		/*for (int index = 0; index < x.length; index++) {
-			int num = x[index];*/
-		for (int num : x) {
+		for (int index = 0; index < x.length; index++) {
+			int num = x[index];
+		//for (int num : x) {
 			int katori = 0;
 
 			for (int i = 1; i <= num; i++) {
